@@ -44,7 +44,7 @@ Por fim, utilizei duas formas de calcular o test qui-quadrado.
  print(qui_quadrado)
  ~~~
  
- - Usando o pacote stats do python:
+ - Usando o módulo stats do python:
  ~~~
  print('\nquadro de análise:')
  print(stats.chi2_contingency(observed= dados_observados))

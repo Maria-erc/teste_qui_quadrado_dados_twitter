@@ -15,7 +15,6 @@ O objetico de usar esse modelo estatítico de Pearson foi para testar duas hipó
 
 ## Teste qui-quadrado de Pearson
 
-### Organizando os dados
 Acrescentei no dataframe "df" o total de linhas e colunas, porque será preciso para o modelo estatístico.
 
 ~~~

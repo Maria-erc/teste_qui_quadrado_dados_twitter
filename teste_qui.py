@@ -59,6 +59,12 @@ dados_esperados = pd.DataFrame(dados_esperados)
 dados_esperados.columns = ['positivo', 'neutro', 'negativo']
 dados_esperados.index = ['saude', 'segurança', 'educação']
 
+#calculando qui quadrado
+qui_quadrado =  ((dados_observados-dados_esperados)**2/dados_esperados).sum().sum()
+print('\nqui quadrado')
+print(qui_quadrado)
+
+#calculando qui-quadrado com módulo stats
 #qui quadrado, valorp, graus de liberdade e os valores esperados
 print('\nquadro de análise:')
 print(stats.chi2_contingency(observed= dados_observados))
